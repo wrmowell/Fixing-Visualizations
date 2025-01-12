@@ -12,8 +12,7 @@
 
 library(tidyverse)
 
-country <- ("China", "Spain", "Japan", "France", "Germany", "Finland", Turkey,
+country <- c("China", "Spain", "Japan", "France", "Germany", "Finland", Turkey,
             "Italy", "S. Korea", "Sweden", "Indonesia")
-lenkm <- (40474, 3661, 3081, 2735, 1571, 1120, 1052, 921, 873, 860, 142)
+lenkm <- c(40474, 3661, 3081, 2735, 1571, 1120, 1052, 921, 873, 860, 142)
 trainds <- data.frame(country, lenkm)
-trainplot <- 
